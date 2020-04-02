@@ -1,0 +1,17 @@
+list=[[1,2,3],4,5,6,[8,9],[[44,55,66],[66,77],["hello",'python','welcome']]]
+#55
+print(list[2])
+#9
+print(list[4][1])
+#77
+print(list[5][1][1])
+#44
+print(list[5][0][0])
+#welcome
+print(list[5][2][2])
+#come
+print(list[5][2][2][3:])
+#yth
+print(list[5][2][1][1:4])
+#["python","welcome"]
+print(list[5][2][1:])
